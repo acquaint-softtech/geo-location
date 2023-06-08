@@ -1,0 +1,24 @@
+{
+    "name": "acquaint-softtech/geo-location",
+    "description": "The Geo Location Addon for Statamic forms is a powerful extension that enables seamless integration of geolocation functionality into your Statamic forms. With this addon, users can effortlessly capture and store precise geographic location information from respondents.",
+    "autoload": {
+        "psr-4": {
+            "AcquaintSofttech\\GeoLocation\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Geo Location",
+            "description": "Geo Location addon",
+            "editions": ["pro"]
+        },
+        "laravel": {
+            "providers": [
+                "AcquaintSofttech\\GeoLocation\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "stevebauman/location": "^6.6"
+    }
+}

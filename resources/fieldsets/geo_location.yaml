@@ -1,0 +1,15 @@
+title: 'Geo Location Tracker For Forms'
+fields:
+  -
+    handle: geo_location_data
+    field:
+      input_type: hidden
+      type: array
+      localizable: true
+      listable: hidden
+      display: 'Geo Location Tracker For Forms'
+      width: 100
+      instructions_position: above
+      visibility: visible
+      antlers: false
+      hide_display: false
