@@ -47,7 +47,13 @@ After the configuration file is published, you need to link the Geo-Location fie
 
 To make use of the Geo-Location Tracker addon for Statamic forms, follow these steps:
 
-**Step 1**: Link Geo-Location Fieldset in Form Blueprint, Save the blueprint file after making the changes.
+**Step 1**: Link Geo-Location Fieldset in Form Blueprint, Save the blueprint file. **Note: If you change anythings on fieldset it will be not working.**
+
+![fieldsets](https://github.com/acquaint-softtech/geo-location/assets/6542302/049dd384-1d18-4fa1-a1e2-bdf999be19cf)
+
+![formBlueprint](https://github.com/acquaint-softtech/geo-location/assets/6542302/65dea8a1-24da-4d90-aaa3-bb743020e813)
+
+
 
 **Step 2**: Configure the Geo-Location Tracker Addon
 
@@ -71,6 +77,7 @@ This IP will be used instead of the actual user's IP. Set the `static_ip` option
 ``` bash
 'static_ip' => '208.67.222.222',
 ```
+![formSubmittedData](https://github.com/acquaint-softtech/geo-location/assets/6542302/7ff5e596-e3fe-49a5-a412-e04a4ca78a92)
 
 **Step 3**: Email Template Usage
 
