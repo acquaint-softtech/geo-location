@@ -5,7 +5,7 @@ return [
     /**
      * Testing in local system you need to set true.
      */
-    'test_local' => true,
+    'test_local' => false,
 
     /**
      * If you want to test in local system pass the public IP address
