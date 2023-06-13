@@ -1,6 +1,7 @@
 {
     "name": "acquaint-softtech/geo-location",
     "description": "The Geo Location Addon for Statamic forms is a powerful extension that enables seamless integration of geolocation functionality into your Statamic forms. With this addon, users can effortlessly capture and store precise geographic location information from respondents.",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "AcquaintSofttech\\GeoLocation\\": "src"
