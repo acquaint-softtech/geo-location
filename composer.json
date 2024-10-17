@@ -20,6 +20,6 @@
         }
     },
     "require": {
-        "stevebauman/location": "^6.6"
+        "stevebauman/location": "^7.3"
     }
 }

@@ -26,10 +26,9 @@ class GeoLocation
     public function handle(FormSubmitted $event): void
     {
         $data = $event->submission->data();
-        
         $test_local = config('geo_location_tracker.test_local');
         
-        if($test_local == true ) {
+        if($test_local) {
 
             $static_ip = config('geo_location_tracker.static_ip');
             
@@ -44,7 +43,7 @@ class GeoLocation
 
         $currentUserInfo = Location::get($ip);
 
-        if(isset($data['geo_location_data']) && (isset($currentUserInfo) && !empty($currentUserInfo)) ) {
+        if($data->has('geo_location_data') && (isset($currentUserInfo) && !empty($currentUserInfo)) ) {
 
             $dataArray = array();
             
